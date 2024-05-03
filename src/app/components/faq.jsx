@@ -2,7 +2,7 @@ const Faq = () => {
   return (
     <div className="px-[16px] py-[40px]">
       <div>
-        <h2 className="text-[#272D37] text-[24px] text-center font-bold">
+        <h2 className="text-[#272D37] text-[24px] text-center font-bold md:text-[32px]">
           Frequently asked questions
         </h2>
         <p className="text-[#5F6D7E] text-center">

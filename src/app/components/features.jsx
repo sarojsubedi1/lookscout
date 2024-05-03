@@ -10,14 +10,14 @@ import ArrowRight from "../assets/icons/right.svg";
 const Features = () => {
   return (
     <div className="px-4 py-8">
-      <h2 className="text-[24px] font-bold text-center mb-8">
+      <h2 className="text-[24px] font-bold text-center mb-8 md:text-[32px]">
         Message for all
       </h2>
       <section className="md:flex">
         <div className="flex flex-col lg:flex-row gap-10">
           <div>
             <Image alt="icon" src={Icon1} className="w-[48px] aspect-square" />
-            <h3 className="mb-2 mt-4 text-[#272D37] text-[20px] font-semibold leading-7 tracking-tight">
+            <h3 className="mb-2 mt-4 text-[#272D37] text-[20px] font-semibold leading-7 tracking-tight md:text-[22px]">
               Easier Work Organization
             </h3>
             <p className="text-[#5F6D7E]">
@@ -28,7 +28,7 @@ const Features = () => {
 
           <div>
             <Image alt="icon" src={Icon2} className="w-[48px] aspect-square" />
-            <h3 className="mb-2 mt-4 text-[#272D37] text-[20px] font-semibold leading-7 tracking-tight">
+            <h3 className="mb-2 mt-4 text-[#272D37] text-[20px] font-semibold leading-7 tracking-tight md:text-[22px]">
               Streamlined Processes
             </h3>
             <p className="text-[#5F6D7E]">
@@ -39,7 +39,7 @@ const Features = () => {
 
           <div>
             <Image alt="icon" src={Icon3} className="w-[48px] aspect-square" />
-            <h3 className="mb-2 mt-4 text-[#272D37] text-[20px] font-semibold leading-7 tracking-tight">
+            <h3 className="mb-2 mt-4 text-[#272D37] text-[20px] font-semibold leading-7 tracking-tight  md:text-[22px]">
               Marketing Analytics
             </h3>
             <p className="text-[#5F6D7E]">
@@ -52,7 +52,7 @@ const Features = () => {
         <div className="mt-10 md:mt-0 lg:hidden flex flex-col gap-10">
           <div>
             <Image alt="icon" src={Icon4} className="w-[48px] aspect-square" />
-            <h3 className="mb-2 mt-4 text-[#272D37] text-[20px] font-semibold leading-7 tracking-tight">
+            <h3 className="mb-2 mt-4 text-[#272D37] text-[20px] font-semibold leading-7 tracking-tight md:text-[22px]">
               Fast Connection
             </h3>
             <p className="text-[#5F6D7E]">
@@ -66,7 +66,7 @@ const Features = () => {
 
           <div>
             <Image alt="icon" src={Icon5} className="w-[48px] aspect-square" />
-            <h3 className="mb-2 mt-4 text-[#272D37] text-[20px] font-semibold leading-7 tracking-tight">
+            <h3 className="mb-2 mt-4 text-[#272D37] text-[20px] font-semibold leading-7 tracking-tight md:text-[22px]">
               Easier Integrations
             </h3>
             <p className="text-[#5F6D7E]">
@@ -80,7 +80,7 @@ const Features = () => {
 
           <div>
             <Image alt="icon" src={Icon6} className="w-[48px] aspect-square" />
-            <h3 className="mb-2 mt-4 text-[#272D37] text-[20px] font-semibold leading-7 tracking-tight">
+            <h3 className="mb-2 mt-4 text-[#272D37] text-[20px] font-semibold leading-7 tracking-tight md:text-[22px]">
               Workflow Builder
             </h3>
             <p className="text-[#5F6D7E]">

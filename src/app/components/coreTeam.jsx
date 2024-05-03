@@ -11,7 +11,7 @@ const CoreTeam = () => {
   return (
     <div className="py-[40px] px-[32px]">
       <div>
-        <h2 className="text-[24px] text-[#272D37] text-center font-bold">
+        <h2 className="text-[24px] text-[#272D37] text-center font-bold md:text-[32px]">
           The Core of Our Team
         </h2>
         <p className="text-[#5F6D7E] text-center">
@@ -25,7 +25,7 @@ const CoreTeam = () => {
         <div>
           <div>
             <Image alt="profile" src={Member1} />
-            <h4 className="mt-[16px] text-[20px] text-[#272D37] font-semibold">
+            <h4 className="mt-[16px] text-[20px] text-[#272D37] font-semibold md:text-[22px]">
               Morgan Drew
             </h4>
             <p className="text-[#5F6D7E]">Manager</p>
