@@ -9,19 +9,19 @@ import Telegram from "../assets/icons/social/telegram.svg";
 
 const CoreTeam = () => {
   return (
-    <div className="py-[40px] px-[32px]">
+    <div className="py-[40px] px-[32px] lg:px-[96px] lg:py-[64px]">
       <div>
         <h2 className="text-[24px] text-[#272D37] text-center font-bold md:text-[32px]">
           The Core of Our Team
         </h2>
-        <p className="text-[#5F6D7E] text-center">
+        <p className="text-[#5F6D7E] text-center lg:mx-[20%]">
           Organically grow the holistic world view of disruptive innovation via
           workplace diversity and empowerment of people and great talent that
           truly rocks.
         </p>
       </div>
 
-      <div className="mt-[32px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[32px]">
+      <div className="mt-[32px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[32px] lg:mt-[64px]">
         <div>
           <div>
             <Image alt="profile" src={Member1} />

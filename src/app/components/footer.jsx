@@ -8,7 +8,7 @@ import Icon from "../assets/icons/Icon.svg";
 
 const Footer = () => {
   return (
-    <div className="px-[16px] py-[32px] grid gap-[32px] grid-cols-2 md:grid-cols-3 lg:grid-cols-6">
+    <div className="px-[16px] py-[32px] grid gap-[32px] grid-cols-2 md:grid-cols-3 lg:grid-cols-6 lg:my-[64px] lg:mx-[64px] lg:px-[32px] lg:py-0">
       <div className="col-span-2 md:w-1/2">
         <Image
           alt="company logo"

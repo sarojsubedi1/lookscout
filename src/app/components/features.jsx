@@ -9,10 +9,16 @@ import ArrowRight from "../assets/icons/right.svg";
 
 const Features = () => {
   return (
-    <div className="px-4 py-8">
-      <h2 className="text-[24px] font-bold text-center mb-8 md:text-[32px]">
-        Message for all
-      </h2>
+    <div className="px-4 py-8 lg:px-[96px] lg:py-[64px]">
+      <div className="mb-8 lg:mb-[64px]">
+        <h2 className="text-[24px] font-bold text-center  md:text-[32px]">
+          Message for all
+        </h2>
+        <p className="hidden lg:block text-center">
+          User generated content in real-time will have multiple touchpoints for
+          offshoring.
+        </p>
+      </div>
       <section className="md:flex">
         <div className="flex flex-col lg:flex-row gap-10">
           <div>

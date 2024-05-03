@@ -9,8 +9,8 @@ import Logo6 from "../assets/icons/Company Logo(5).svg";
 const Company = () => {
   return (
     <>
-      <div className="bg-[#2B63D9] px-[16px] py-[32px]">
-        <div className="text-white text-center mb-[16px] md:mb-[32px]">
+      <div className="bg-[#2B63D9] px-[16px] py-[32px] lg:py-[64px]">
+        <div className="text-white text-center mb-[16px] md:mb-[32px] lg:mx-[20%]">
           <p className="text-[14px] font-semibold">1% OF THE INDUSTRY</p>
           <h2 className="text-[28px] font-semibold leading-9 md:text-[32px]">
             Welcome to your new digital reality that which will rock your world
@@ -30,7 +30,7 @@ const Company = () => {
           </div>
         </div>
       </div>
-      <div className="bg-[#2B63D9] px-[16px] py-[32px] grid grid-cols-1 gap-[32px] md:grid-cols-4">
+      <div className="bg-[#2B63D9] px-[16px] py-[32px] grid grid-cols-1 gap-[32px] md:grid-cols-4 lg:grid-cols-6 lg:py-[64px] lg:px-[64px]">
         <div className="grid place-items-center">
           <Image
             alt="Company Logo"
